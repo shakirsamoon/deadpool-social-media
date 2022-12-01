@@ -1,0 +1,43 @@
+.bottom_bar {
+  height: 60px;
+  background:var(--primary-color);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.bottom_bar a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
+}
+
+.bottom_bar a i {
+  color: white;
+  font-size: 28px;
+  padding: 0 5px;
+}
+
+.bottom_bar a p{
+  font-size: 22px;
+  padding: 0 5px;
+  font-family: var(--title-font);
+  font-weight: bold;
+}
+
+.bottom_bar .active *{
+  color: var(--block-background-color);
+}
+
+/* For tablets and higher sizes */
+@media screen and (min-width: 620px) {
+  .bottom_bar {
+    display: none;
+  }
+}

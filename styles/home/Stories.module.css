@@ -1,0 +1,82 @@
+.stories_block {
+  margin: 10px;
+}
+
+.stories {
+  padding: 10px 20px;
+  height: 90px;
+  background: var(--block-background-color);
+  border-radius: var(--block-border-radius);
+}
+
+.stories .title {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.story_list {
+  display: grid;
+  grid-template-columns: repeat(4, 23%);
+  grid-template-rows: minmax(60px, auto);
+  padding: 5px 0;
+  gap: 8px;
+}
+
+.story_list .story_item {
+  text-align: center;
+  cursor: pointer;
+}
+
+.story_list .story_item .profile_image {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.story_list .story_item .username {
+  font-size: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* For small laptops and higher sizes */
+@media screen and (min-width: 960px) {
+  .stories_block {
+    grid-column: 2/3;
+    grid-row: 1/4;
+  }
+
+  .stories {
+    height: 235px;
+  }
+
+  .stories .title{
+    font-size: 18px;
+  }
+
+  .stories .story_list {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    padding: 10px 0;
+    justify-items: center;
+  }
+
+  .stories .story_list .story_item {
+    display: flex;
+    justify-items: start;
+    align-items: center;
+  }
+
+  .stories .story_list .story_item * {
+    padding: 0 10px;
+  }
+
+  .story_list .story_item .username {
+    font-size: 13px;
+  }
+
+  .ads {
+    display: block;
+  }
+}

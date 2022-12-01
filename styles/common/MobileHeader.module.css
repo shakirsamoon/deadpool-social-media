@@ -1,0 +1,46 @@
+.mobile_header {
+  height: 35px;
+  padding: 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(
+    var(--primary-color),
+    var(--secondary-color)
+  );
+}
+
+.mobile_header .app_title {
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  align-items: center;
+}
+
+.mobile_header .app_logo {
+  height: 40px;
+  width: 40px;
+}
+
+.mobile_header .app_name {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: var(--title-font);
+}
+
+.mobile_header .logout i {
+  font-size: 30px;
+  color: white;
+}
+
+.mobile_header .logout:hover {
+  cursor: pointer;
+}
+
+/* For tablets and higher sizes */
+@media screen and (min-width: 620px) {
+  .mobile_header {
+    display: none;
+  }
+}

@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap");
+
+:root {
+  --title-font: "Rajdhani";
+  --regular-font: "Sintony";
+  --primary-color: #e21938;
+  --secondary-color: #000;
+  --block-background-color: #242328;
+  --block-border-radius: 10px;
+  --button-hover-color: #bd2639;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: var(--regular-font);
+  color: #fff;
+
+  /* Disable the text selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html,
+body {
+  color-scheme: dark;
+  background: var(--secondary-color);
+  overflow-x: hidden;
+}
+
+a,
+li {
+  text-decoration: none;
+  list-style-type: none;
+}

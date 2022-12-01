@@ -1,0 +1,50 @@
+.new_post {
+  height: 50px;
+  background: var(--block-background-color);
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: var(--block-border-radius);
+
+  display: grid;
+  grid-template-columns: 78% 18%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new_post .post {
+  background: #444444;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 7px;
+  padding: 5px 0;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new_post .submit {
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 4px;
+  font-size: 17px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 28px;
+}
+
+.new_post .submit:hover {
+  background: var(--button-hover-color);
+  cursor: pointer;
+}
+
+/* For small laptops and higher sizes */
+@media screen and (min-width: 960px) {
+  .new_post {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+}

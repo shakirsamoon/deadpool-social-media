@@ -1,0 +1,31 @@
+.ads_block {
+  height: 100px;
+  background: var(--block-background-color);
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: var(--block-border-radius);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ads_block.story {
+  display: none;
+}
+
+.ads_block p {
+  width: 60%;
+}
+
+/* For small laptops and higher sizes */
+@media screen and (min-width: 960px) {
+  .ads_block.non_story {
+    display: none;
+  }
+
+  .ads_block.story {
+    display: flex;
+    margin: 20px 0;
+  }
+}
