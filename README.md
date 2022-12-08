@@ -1,21 +1,26 @@
 # Deadpool Social Media
----
+
 *NOTE: This is an example project developed by [@shakirsamoon](https://github.com/shakirsamoon). Feel free to explore, clone or fork the repo as per your liking. In exchange, I would like a star for the repository. Thank you in Advance.*
 
-> Developed on: Sept 18, 2021
+- Developed on: Sept 18, 2021
 
-> Updated on: Dec 01, 2022
+- Updated on: Dec 01, 2022
 
-> Technologies used:
-> - [Next.js](https://nextjs.org/)
-> - Firestore DB ([Firebase](https://firebase.google.com/))
+- Technologies used:
+  - [Next.js](https://nextjs.org/)
+  - Firestore DB ([Firebase](https://firebase.google.com/))
 
+<br/>
+
+## Live Preview
+
+- [http://deadpool-social-media.vercel.app/](http://deadpool-social-media.vercel.app/)
 
 <br/>
 
 
 ## Getting Started
----
+
 
 ### 1) Setup Firebase.
 
