@@ -1,7 +1,7 @@
 import { NextPage } from "next";
 import Meta from "@components/Meta";
 import Link from 'next/link';
-import styles from '@styles/NotFound/NotFound.module.css';
+import styles from '@styles/notfound/NotFound.module.css';
 
 /**
  *  Layout for the 404 Not Found page
