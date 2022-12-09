@@ -14,7 +14,7 @@
 
 ## Live Preview
 
-- [http://deadpool-social-media.vercel.app/](http://deadpool-social-media.vercel.app/)
+- [https://deadpool-social-media.vercel.app](https://deadpool-social-media.vercel.app)
 
 <br/>
 
